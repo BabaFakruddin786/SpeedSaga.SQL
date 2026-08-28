@@ -42,6 +42,16 @@ If you already have an older SpeedSaga database, apply migration scripts in orde
 19. `migrations/Updates_020_AppThemes.sql`
 20. `migrations/Updates_021_ThemePaletteRefresh.sql`
 21. `migrations/Updates_022_LinkPlayerContact.sql`
+22. `migrations/Updates_023_MultiGamePlatform.sql`
+23. `migrations/Updates_024_GamePlayConfig.sql`
+24. `migrations/Updates_025_FreePlayTimeModes.sql`
+25. `migrations/Updates_026_GamePlayLives.sql`
+26. `migrations/Updates_027_KycDocumentReview.sql`
+27. `migrations/Updates_028_SupportChat.sql`
+28. `migrations/Updates_029_ProfileKycCompletion.sql`
+29. `migrations/Updates_030_AppSupportConfig.sql`
+30. `migrations/Updates_031_AppTickerConfig.sql`
+31. `migrations/Updates_032_GameType.sql`
 
 Each script is idempotent where possible and safe to re-run on partially updated databases.
 

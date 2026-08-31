@@ -53,6 +53,7 @@ If you already have an older SpeedSaga database, apply migration scripts in orde
 30. `migrations/Updates_031_AppTickerConfig.sql`
 31. `migrations/Updates_032_GameType.sql`
 32. `migrations/Updates_033_AdminConsole.sql`
+33. `migrations/Updates_034_AdminUsers.sql`
 
 Each script is idempotent where possible and safe to re-run on partially updated databases.
 
